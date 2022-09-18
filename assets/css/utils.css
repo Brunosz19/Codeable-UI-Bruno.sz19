@@ -1,0 +1,93 @@
+/* UTILS */
+.w-full {
+  width: 100%;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.overline {
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+.mono {
+  font-family: "Source Code Pro", monospace;
+}
+
+.list-style-none {
+  list-style-type: none;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.py-3 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.my-0\.5 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.text-primary-regular {
+  color: var(--primary-regular);
+}
+
+.text-primary-dark {
+  color: var(--primary-dark);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.bg-primary-darker {
+  background-color: var(--primary-darker);
+}
+
+.icon-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-section-first {
+  display: flex;
+  gap: 1rem;
+}
+
+.portafolio__button {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 0.6rem;
+  margin-top: 15px;
+}
+
+.button--portafolio {
+  height: 22px;
+  text-align: center;
+  align-items: center;
+}
+
+.button--footer {
+  margin: 32px auto 0 auto;
+  padding: 14px 24px;
+}

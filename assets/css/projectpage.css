@@ -1,0 +1,26 @@
+.project-content {
+  text-align: left;
+}
+
+.project-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-content__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--green-300);
+}
+
+.project-content__flex {
+  max-width: 1024px;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
