@@ -1,3 +1,8 @@
+body,
+head,
+button {
+  transition: 0.5s;
+}
 
 .header {
   color: #CCFAE1;
@@ -57,10 +62,10 @@
   line-height: 32px;
   margin: 24px 0;
   padding: 16px 18px;
-  background-color: #77E297;
-  /* optional blockquote
+  /* background-color: #77E297; */
+  /* optional blockquote */
   border-left: solid 5px #3A824D;
-  background-color: #CCFAE1; */
+  background-color: #CCFAE1;
 }
 
 .article figure {

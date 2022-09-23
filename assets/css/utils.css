@@ -91,3 +91,19 @@
   margin: 32px auto 0 auto;
   padding: 14px 24px;
 }
+
+.portafolio--cards-border {
+  display: block;
+  min-width: 348px;
+  padding: 24px;
+  box-shadow: 0px 0px 30px -16px rgb(0 0 0 / 20%);
+}
+
+.portafolio--cards-border div:last-child {
+  min-width: 291px;
+}
+
+.portafolio--cards-border:hover {
+  padding: 30px;
+  transition: 0.5s;
+}
