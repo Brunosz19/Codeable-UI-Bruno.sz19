@@ -15,19 +15,31 @@
     <header class="header">
       <div class="container-lg">
         <nav class="navbar">
-          <a href="./index.html" class="header__logo text-decoration-none">
-            <h1 class="head-md semibold">Bruno Saenz</h1>
-          </a>
+          <input type="checkbox" name="menu" id="menu" style="display: none">
+          <div class="navbar__header">
+            <a href="./index.html" class="header__logo text-decoration-none">
+              <h1 class="head-md semibold">Bruno Saenz</h1>
+            </a>
+            <label for="menu" class="button__menu">
+              <div></div>
+              <div></div>
+              <div></div>
+            </label>
+          </div>
           <ul class="navbar__links list-style-none">
-            <li><a href="./article.html" class="link text semibold">Articles</a></li>
+            <li>
+              <a href="./article.html" class="link text semibold">Articles</a>
+            </li>
             <li>
               <a href="./portafolio.html" class="link text semibold">Portafolio</a>
             </li>
-            <li><a href="./about.html" class="link text semibold">About</a></li>
+            <li>
+              <a href="./about.html" class="link text semibold">About</a>
+            </li>
             <li>
               <a
                 href="./contact.html"
-                class="button button--primary button--sm text-decoration-none"
+                class="button button--primary button--sm text text-decoration-none"
               >
                 Contact Me
               </a>
